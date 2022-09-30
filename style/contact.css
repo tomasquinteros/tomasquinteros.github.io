@@ -63,3 +63,35 @@ h2 {
     font-size: 1.3em;
     width: 10vw;
 }
+
+@media (max-width:425px) {
+    main {flex-direction: column;}
+
+    .contacto-rapido li input, li textarea {
+        width: 80vw;
+        background-color: #ccc;
+        padding: 8px 10px;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        margin: 0px auto;
+    }
+    .contacto-rapido li textarea {
+        max-width: 80vw;
+    }
+    .contacto-rapido li input[type="submit"] {
+        background-color: #019fb6;
+        color: #ccc;
+        font-size: 1.3em;
+        width: 100px;
+        font-weight: 600;
+    }
+    .contacto-rapido li input[type="submit"]:hover {
+        background-color: #ccc;
+        color: #019fb6;
+        font-size: 1.3em;
+    }
+    .otros-contactos {
+        border-left:1px solid #019fb6;
+        border-right: 1px solid #019fb6;
+    }
+}

@@ -2,8 +2,25 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.637)), 
     url(/img/logos-auto/wallhaven-p2m1ee_1920x1080.png);
 }*/
-
-
+.bienvenidos {
+    background-image: linear-gradient(rgb(1,1,1, 0.5), rgba(1,1,1,0.5)),
+        url(/img/logos-auto/wallhaven-p2m1ee_1920x1080.png);
+        background-position: center;
+        height: 70vh;
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        color: rgb(175, 175, 175);
+}
+.presentacion {
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+}
 
 section {
     display: flex;
