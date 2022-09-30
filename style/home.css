@@ -90,6 +90,11 @@ section {
         margin-bottom: 100px;
     }
     .presentacion {
+        visibility: visible;
+        margin: auto;
+        padding: auto;
+        width: auto;
+        height: auto;
         margin: 30px auto;
         border-top: #019fb6 solid 1px;
         border-bottom: #019fb6 solid 1px; 
