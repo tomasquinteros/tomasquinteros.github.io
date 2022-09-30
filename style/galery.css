@@ -1,0 +1,45 @@
+.no-disponible {
+    padding: 40px;
+    font-size: 40px;
+}
+.tablet-desktop {
+    visibility: hidden;
+}
+.tablet-desktop img {
+    width: 0px;
+}
+
+@media (min-width:768px) {
+    .no-disponible {visibility: hidden; height: 0px; padding: 0%;}
+    .tablet-desktop{
+        visibility: visible;
+        background-color: black;
+    }
+
+    .hero {
+        height: 70vh;
+        background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+        url(/img/galery/wallhaven-zxx7dy_1920x1080.png);
+        background-position: center;
+        color: #ccc;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tablet-desktop h3 {
+        font-family: "Ubuntu", sans-serif;
+        background-color: black;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    .tablet-desktop img {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .galery-marcas {
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+}

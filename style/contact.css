@@ -1,0 +1,50 @@
+main {
+    display: flex;
+    gap: 40;
+}
+.holder {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+section {margin-bottom: 40px;}
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-weight: 500;
+}
+.contacto-rapido {width: 100%;}
+.contacto-rapido ul {
+    flex-direction: column;
+}
+.contacto-rapido li {
+    display: flex;
+    flex-direction: column;
+}
+.contacto-rapido li label {
+    margin: 10px;
+}
+.contacto-rapido li input, li textarea {
+    width: 100%;
+    background-color: #ccc;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.contacto-rapido li input:hover, textarea:hover {
+    border: 1px solid #019fb6;
+}
+
+.otros-contactos {width: 100%; border-left:1px solid #ccc; padding-left: 20px;}
+.otros-contactos p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.otros-contactos ul {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contacto-rapido li textarea {
+    max-width: 424px;
+}

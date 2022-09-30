@@ -1,0 +1,122 @@
+/*body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.637)), 
+    url(/img/logos-auto/wallhaven-p2m1ee_1920x1080.png);
+}*/
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+.card {
+    border: 2px solid #019fb6;
+    border-radius: 10px;
+    background-color: rgba(29, 29, 29, 0.719);
+    width: 70vw;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+}
+.card img {
+    width: 35vw;
+    object-fit: cover;
+    padding: 20px;
+}
+.card h2 {
+    padding: 10px;
+    font-style: italic;
+}
+.card p {
+    color: rgb(51, 51, 51);
+    margin-bottom: 20px;
+}
+.card button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: 1px solid #019fb6;
+    border-radius: 4px;
+    transition: all 0.5s ease-in;
+}
+.card button:hover {
+    background-color: #019fb6;
+    border: 2px solid rgb(133, 133, 133);
+    color: rgb(51, 51, 51);
+}
+
+@media (min-width: 992px) {
+    ::-webkit-scrollbar {
+        width: 0.7vw;
+      }
+    ::-webkit-scrollbar-track {
+        background-color: #ccc; /* THIS WILL SET THE COLOR OF THE SCROLLBAR TRACK */
+      }
+    ::-webkit-scrollbar-thumb {
+        background-color: #019fb6;
+        border: 0.1vw solid #ffffff;
+        border-radius: 5vw;
+      }
+    .bienvenidos {
+        font-size: 7em;
+        text-align: center;
+        padding: 100px;
+        color: rgb(175, 175, 175);
+        height: 90vh;
+        background-image: linear-gradient(rgb(1,1,1, 0.5), rgba(1,1,1,0.5)),
+        url(/img/logos-auto/wallhaven-p2m1ee_1920x1080.png);
+        background-position: center;
+        margin-bottom: 100px;
+    }
+    .presentacion {
+        margin: 30px auto;
+        border-top: #019fb6 solid 1px;
+        border-bottom: #019fb6 solid 1px; 
+        max-width: 1200px;
+
+    }
+    .presentacion h2 {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        color: #019fb6;
+        font-size: 3em;
+        padding: 20px;
+    }
+    .presentacion div {
+        display: flex;
+        padding: 3vw;
+        align-items: center;
+    }
+    .presentacion p {
+        font-size: 1.7em;
+        padding-right: 20px;
+    }
+    .presentacion img {
+        max-width: 300px;
+        max-height: 300px;
+        
+    }
+    section {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+    }
+    .card {
+        max-width: 30vw;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card img {
+        width: 20vw;
+    }
+    button {
+        display: block;
+    }
+}
